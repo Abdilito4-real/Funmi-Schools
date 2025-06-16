@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | Funmi Schools</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Merriweather:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <img src="freepik_br_6df91bc0-8717-4652-91c4-db32daaf97dc.png" alt="Funmi School Logo" class="logo">
+                    <div class="school-name">
+                        <h1>Funmi Schools</h1>
+                        <p>Excellence in Education</p>
+                    </div>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html"  class="active">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="admissions.html#application" class="btn btn-outline">Apply Now</a>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Admissions Hero Section -->
+    <section class="admissions-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="white">Join the Funmi Community</h1>
+                <p class="maroon">Discover how to become part of our vibrant learning community and begin your journey toward academic excellence.</p>
+                <div class="hero-btns">
+                    <a href="#application" class="btn btn-primary">Apply Now</a>
+                    <a href="#process" class="btn btn-outline">Learn About Admissions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Process Section -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <h2 class="section-title">Admissions Process</h2>
+            <p class="text-center">Our admissions process is designed to help us get to know each applicant while making the experience straightforward for families.</p>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Inquiry</h3>
+                    <p>Submit an inquiry form or attend an open house to learn more about our programs.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Application</h3>
+                    <p>Complete our online application form and submit required documents.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Assessment</h3>
+                    <p>Students complete an academic assessment and may be invited for an interview.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Decision</h3>
+                    <p>Receive your admissions decision within 2-3 weeks of completing all steps.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Enrollment</h3>
+                    <p>Secure your spot by submitting enrollment forms and tuition deposit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+         <!-- Application Form Section -->
+    <section class="section application" id="application">
+        <div class="container">
+            <h2 class="section-title">Admission Application</h2>
+            <div class="form-container">
+                <div class="form-header">
+                    <h3 class="forma">Application for Admission - 2025/2026 Academic Year</h3>
+                </div>
+                
+                <div class="form-body">
+                    <form id="admissionForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" class="form-control" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" id="dob" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                <select id="gender" class="form-control" required>
+                                    <option value="">Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="state">State</label>
+                                <input type="text" id="state" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="zip">Zip Code</label>
+                                <input type="text" id="zip" class="form-control" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="grade">Grade Applying For</label>
+                            <select id="grade" class="form-control" required>
+                                <option value="">Select Grade</option>
+                                <option value="9">Grade 9</option>
+                                <option value="10">Grade 10</option>
+                                <option value="11">Grade 11</option>
+                                <option value="12">Grade 12</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Application Fee Payment Method</label>
+                            <div class="payment-methods">
+                                <div class="payment-method" data-method="bank">
+                                    <i class="fas fa-university"></i>
+                                    <p>Bank Transfer</p>
+                                </div>
+                                
+                                <div class="payment-method" data-method="card">
+                                    <i class="fas fa-credit-card"></i>
+                                    <p>Credit Card</p>
+                                </div>
+                                
+                                <div class="payment-method" data-method="mobile">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <p>Mobile Money</p>
+                                </div>
+                            </div>
+                            
+                            <div class="bank-details" id="bankDetails">
+                                <h4>Bank Transfer Instructions</h4>
+                                <div class="bank-info">
+                                    <p><strong>Bank Name:</strong> National Commercial Bank</p>
+                                    <p><strong>Account Name:</strong> Funmi Schools</p>
+                                    <p><strong>Account Number:</strong> 1234567890</p>
+                                    <p><strong>Branch Code:</strong> 12345</p>
+                                    <p><strong>Reference:</strong> Student's Full Name</p>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="paymentProof">Upload Payment Proof</label>
+                                    <input type="file" id="paymentProof" class="form-control" accept=".pdf,.jpg,.png" style="display: none;">
+                                    <button type="button" class="btn btn-outline" onclick="document.getElementById('paymentProof').click()">Choose File</button>
+                                    <div id="fileDisplay" style="margin-top: 10px; display: none;">
+                                        <span id="fileName"></span>
+                                        <button type="button" id="removeFile" class="btn-icon"><i class="fas fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input type="checkbox" id="agreeTerms" class="form-check-input" required>
+                                <label for="agreeTerms">I certify that all information provided is accurate and complete.</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-footer">
+                            <p class="form-note">Application fee: $50 (non-refundable)</p>
+                            <button type="submit" class="btn btn-primary">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    
+    <!-- Tuition Section -->
+    <section class="tuition-section">
+        <div class="container">
+            <div class="tuition-container">
+                <h2 class="section-title">Tuition & Fees</h2>
+                <p>We are committed to making a Funmi education accessible through competitive tuition and financial aid options.</p>
+                
+                <table class="tuition-table">
+                    <thead>
+                        <tr>
+                            <th>Grade Level</th>
+                            <th>Annual Tuition</th>
+                            <th>Fees</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Grade 9</td>
+                            <td>$18,500</td>
+                            <td>$1,200</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 10</td>
+                            <td>$19,000</td>
+                            <td>$1,200</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 11</td>
+                            <td>$19,500</td>
+                            <td>$1,500</td>
+                        </tr>
+                        <tr>
+                            <td>Grade 12</td>
+                            <td>$20,000</td>
+                            <td>$1,500</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p><strong>Note:</strong> Fees include technology, activities, and lab fees. Additional costs may apply for certain electives, AP/IB exams, and extracurricular activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financial Aid Section -->
+    <section class="financial-aid-section">
+        <div class="container">
+            <h2 class="section-title">Financial Aid & Scholarships</h2>
+            <p class="text-center">We offer several options to help make a Funmi education affordable for qualified students.</p>
+            
+            <div class="aid-options">
+                <div class="aid-option">
+                    <h3>Need-Based Financial Aid</h3>
+                    <p>Approximately 30% of our students receive need-based financial aid each year. Awards are based on demonstrated financial need and availability of funds.</p>
+                    <p><strong>Application Deadline:</strong> February 1 for priority consideration</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="aid-option">
+                    <h3>Merit Scholarships</h3>
+                    <p>We award merit scholarships to incoming students who demonstrate exceptional academic achievement, leadership, or talent in the arts or athletics.</p>
+                    <p><strong>No separate application required</strong> - all applicants are considered.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="aid-option">
+                    <h3>Payment Plans</h3>
+                    <p>Flexible payment plans allow families to spread tuition payments over 10 or 12 months with no interest.</p>
+                    <p>Additional options available for military families and siblings.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <!-- FAQs Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-container">
+                <h2 class="section-title">Admissions FAQs</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What are the application deadlines?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our priority application deadline is January 15 for the following academic year. We accept applications on a rolling basis after that date, but availability may be limited. Early applications are encouraged.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What documents are required for application?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Required documents include:</p>
+                        <ul>
+                            <li>Completed application form</li>
+                            <li>Official school transcripts from the past two years</li>
+                            <li>Two teacher recommendations</li>
+                            <li>Standardized test scores (if available)</li>
+                            <li>Application fee payment</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer campus tours?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer campus tours Monday through Friday during school hours. You can also attend one of our Open House events throughout the year. Schedule a tour through our admissions office.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is there an entrance exam?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All applicants complete an academic assessment as part of the admissions process. For grades 9-11, this includes math and English sections. The assessment helps us determine appropriate placement and support needs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is your student-teacher ratio?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our average student-teacher ratio is 12:1, with most classes having between 15-20 students. This allows for personalized attention and meaningful student-teacher relationships.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About Funmi</h3>
+                    <p>Since 1996, Funmi School has been committed to providing a transformative educational experience.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Academic Calendar</a></li>
+                        <li><a href="#">School Policies</a></li>
+                        <li><a href="#">Lunch Menu</a></li>
+                        <li><a href="#">Transportation</a></li>
+                        <li><a href="#">Staff Directory</a></li>
+                        <li><a href="#">Employment</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Academics</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Curriculum</a></li>
+                        <li><a href="#">Departments</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">College Counseling</a></li>
+                        <li><a href="#">Special Programs</a></li>
+                        <li><a href="#">Academic Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> No CC8 Kwasau Street Barnawa, Kaduna South, Kaduna</p>
+                        <p><i class="fas fa-phone-alt"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@funmischoolsedu</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 7:30 AM - 4:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Funmi Schools. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
